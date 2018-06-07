@@ -1,0 +1,18 @@
+var READTHEDOCS_DATA = {
+    project: "esp-idf",
+    version: "latest",
+    language: "en",
+    programming_language: "c",
+    subprojects: {},
+    canonical_url: "https://esp-idf.readthedocs.io/en/latest/",
+    theme: "sphinx_rtd_theme",
+    builder: "sphinx",
+    docroot: "/docs/en/",
+    source_suffix: ".rst",
+    api_host: "https://readthedocs.org",
+    commit: "34401afe",
+
+    global_analytics_code: 'UA-17997319-1',
+    user_analytics_code: null
+};
+

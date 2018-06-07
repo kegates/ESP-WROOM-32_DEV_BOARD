@@ -1,0 +1,514 @@
+PCBNEW-LibModule-V1  Di 22 Dez 2015 16:42:53 CET
+# encoding utf-8
+Units mm
+$INDEX
+KINGBRIGHT_SA39_11
+lumex_LCM-S01602DTR
+lumex_LCM-S01602DTR_4bit
+unkown_lcd_c39363-a319-b70
+$EndINDEX
+$MODULE KINGBRIGHT_SA39_11
+Po 0 0 0 15 54313F7D 00000000 ~~
+Li KINGBRIGHT_SA39_11
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "KINGBRIGHT_SA39_11"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DS -5.1 -6.6 -5.1 6.6 0.15 21
+DS -5.1 -6.6 5.1 -6.6 0.15 21
+DS 5.1 -6.6 5.1 6.6 0.15 21
+DS 5.1 6.6 -5.1 6.6 0.15 21
+$PAD
+Sh "1" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po -3.81 -5.08
+$EndPAD
+$PAD
+Sh "2" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po -3.81 -2.54
+$EndPAD
+$PAD
+Sh "3" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "4" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po -3.81 2.54
+$EndPAD
+$PAD
+Sh "5" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po -3.81 5.08
+$EndPAD
+$PAD
+Sh "6" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po 3.81 5.08
+$EndPAD
+$PAD
+Sh "7" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po 3.81 2.54
+$EndPAD
+$PAD
+Sh "8" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "9" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po 3.81 -2.54
+$EndPAD
+$PAD
+Sh "10" C 1 1 0 0 0
+Dr 0.5 0 0 O 0.5 0.75
+At STD N 0060FFFF
+Ne 0 ""
+Po 3.81 -5.08
+$EndPAD
+$EndMODULE KINGBRIGHT_SA39_11
+$MODULE lumex_LCM-S01602DTR
+Po 0 0 0 15 56793D0C 00000000 ~~
+Li lumex_LCM-S01602DTR
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "lumex_LCM-S01602DTR"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DA -32 -1 -33 -4.9 2070 0.15 21
+DA -32 -1 -33 -2.75 2370 0.15 21
+DA 32 -1 33 2.9 2070 0.15 21
+DA 32 -1 33 0.75 2370 0.15 21
+DS -28 -10.25 -28 10.25 0.15 21
+DS -28 10.25 28 10.25 0.15 21
+DS 28 10.25 28 -10.25 0.15 21
+DS 28 -10.25 -28 -10.25 0.15 21
+DS -26 -7.5 26 -7.5 0.15 21
+DS 26 -7.5 26 8.5 0.15 21
+DS 26 8.5 -26 8.5 0.15 21
+DS -26 8.5 -26 -7.5 0.15 21
+DS -33 -13 -33 13 0.15 21
+DS 33 -13 33 13 0.15 21
+DS 33 -13 -33 -13 0.15 21
+DS -33 13 33 13 0.15 21
+$PAD
+Sh "14" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -30 11
+$EndPAD
+$PAD
+Sh "13" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -27.46 11
+$EndPAD
+$PAD
+Sh "12" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.92 11
+$EndPAD
+$PAD
+Sh "1" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.02 11
+$EndPAD
+$PAD
+Sh "2" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.48 11
+$EndPAD
+$PAD
+Sh "3" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.06 11
+$EndPAD
+$PAD
+Sh "4" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4.6 11
+$EndPAD
+$PAD
+Sh "5" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.14 11
+$EndPAD
+$PAD
+Sh "6" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.68 11
+$EndPAD
+$PAD
+Sh "7" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -12.22 11
+$EndPAD
+$PAD
+Sh "8" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -14.76 11
+$EndPAD
+$PAD
+Sh "9" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -17.3 11
+$EndPAD
+$PAD
+Sh "10" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -19.84 11
+$EndPAD
+$PAD
+Sh "11" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.38 11
+$EndPAD
+$PAD
+Sh "16" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.56 11
+$EndPAD
+$PAD
+Sh "15" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.1 11
+$EndPAD
+$EndMODULE lumex_LCM-S01602DTR
+$MODULE lumex_LCM-S01602DTR_4bit
+Po 0 0 0 15 56796F43 00000000 ~~
+Li lumex_LCM-S01602DTR_4bit
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "lumex_LCM-S01602DTR_4bit"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DA -32 -1 -33 -4.9 2070 0.15 21
+DA -32 -1 -33 -2.75 2370 0.15 21
+DA 32 -1 33 2.9 2070 0.15 21
+DA 32 -1 33 0.75 2370 0.15 21
+DS -28 -10.25 -28 10.25 0.15 21
+DS -28 10.25 28 10.25 0.15 21
+DS 28 10.25 28 -10.25 0.15 21
+DS 28 -10.25 -28 -10.25 0.15 21
+DS -26 -7.5 26 -7.5 0.15 21
+DS 26 -7.5 26 8.5 0.15 21
+DS 26 8.5 -26 8.5 0.15 21
+DS -26 8.5 -26 -7.5 0.15 21
+DS -33 -13 -33 13 0.15 21
+DS 33 -13 33 13 0.15 21
+DS 33 -13 -33 -13 0.15 21
+DS -33 13 33 13 0.15 21
+$PAD
+Sh "14" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -30 11
+$EndPAD
+$PAD
+Sh "13" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -27.46 11
+$EndPAD
+$PAD
+Sh "12" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -24.92 11
+$EndPAD
+$PAD
+Sh "1" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.02 11
+$EndPAD
+$PAD
+Sh "2" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.48 11
+$EndPAD
+$PAD
+Sh "3" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.06 11
+$EndPAD
+$PAD
+Sh "4" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4.6 11
+$EndPAD
+$PAD
+Sh "5" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.14 11
+$EndPAD
+$PAD
+Sh "6" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.68 11
+$EndPAD
+$PAD
+Sh "11" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -22.38 11
+$EndPAD
+$PAD
+Sh "16" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.56 11
+$EndPAD
+$PAD
+Sh "15" C 1.8 1.8 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.1 11
+$EndPAD
+$EndMODULE lumex_LCM-S01602DTR_4bit
+$MODULE unkown_lcd_c39363-a319-b70
+Po 0 0 0 15 555B1CA7 00000000 ~~
+Li unkown_lcd_c39363-a319-b70
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "unkown_lcd_c39363-a319-b70"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DS 7.5 -15 7.5 -16 0.15 21
+DS 7.5 -16 -7.5 -16 0.15 21
+DS -7.5 -16 -7.5 -15 0.15 21
+DS -7.5 -15 -16 4.5 0.15 21
+DS -16 4.5 -16 8.5 0.15 21
+DS -16 8.5 16 8.5 0.15 21
+DS 16 8.5 16 4.5 0.15 21
+DS 16 4.5 7.5 -15 0.15 21
+DS 20 -15 -20 -15 0.15 21
+DS -20 -15 -20 15 0.15 21
+DS -20 15 20 15 0.15 21
+DS 20 15 20 -15 0.15 21
+$PAD
+Sh "1" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -13.65 7.5
+$EndPAD
+$PAD
+Sh "2" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -12.35 7.5
+$EndPAD
+$PAD
+Sh "3" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -11.05 7.5
+$EndPAD
+$PAD
+Sh "4" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -9.75 7.5
+$EndPAD
+$PAD
+Sh "5" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -8.45 7.5
+$EndPAD
+$PAD
+Sh "6" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -7.15 7.5
+$EndPAD
+$PAD
+Sh "7" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -5.85 7.5
+$EndPAD
+$PAD
+Sh "8" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -4.55 7.5
+$EndPAD
+$PAD
+Sh "9" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -3.25 7.5
+$EndPAD
+$PAD
+Sh "10" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -1.95 7.5
+$EndPAD
+$PAD
+Sh "11" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -0.65 7.5
+$EndPAD
+$PAD
+Sh "12" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 0.65 7.5
+$EndPAD
+$PAD
+Sh "13" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 1.95 7.5
+$EndPAD
+$PAD
+Sh "14" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 3.25 7.5
+$EndPAD
+$PAD
+Sh "15" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 4.55 7.5
+$EndPAD
+$PAD
+Sh "16" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 5.85 7.5
+$EndPAD
+$PAD
+Sh "17" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 7.15 7.5
+$EndPAD
+$PAD
+Sh "18" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 8.45 7.5
+$EndPAD
+$PAD
+Sh "19" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 9.75 7.5
+$EndPAD
+$PAD
+Sh "20" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 11.05 7.5
+$EndPAD
+$PAD
+Sh "21" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 12.35 7.5
+$EndPAD
+$PAD
+Sh "22" R 0.7 5 0 0 1800
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 13.65 7.5
+$EndPAD
+$EndMODULE unkown_lcd_c39363-a319-b70
+$EndLIBRARY

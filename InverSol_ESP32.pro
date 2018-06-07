@@ -1,4 +1,4 @@
-update=5/14/2018 2:41:11 PM
+update=6/7/2018 2:58:08 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -62,3 +60,42 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=espressif-xess
+LibName34=Library/kicadlib-master/symbols/amesser_altera_fpga
+LibName35=Library/kicadlib-master/symbols/amesser_atmel_sam
+LibName36=Library/kicadlib-master/symbols/amesser_cypress_fx
+LibName37=Library/kicadlib-master/symbols/amesser_diodes
+LibName38=Library/kicadlib-master/symbols/amesser_linear
+LibName39=Library/kicadlib-master/symbols/amesser_memory
+LibName40=Library/kicadlib-master/symbols/amesser_microcontroller
+LibName41=Library/kicadlib-master/symbols/amesser_misc
+LibName42=Library/kicadlib-master/symbols/amesser_miscic
+LibName43=Library/kicadlib-master/symbols/amesser_osc_crystal
+LibName44=Library/kicadlib-master/symbols/amesser_pmic
+LibName45=Library/kicadlib-master/symbols/amesser_transistors
+LibName46=Library/kicadlib-master/symbols/amesser-ad
+LibName47=Library/kicadlib-master/symbols/amesser-cmos4000
+LibName48=Library/kicadlib-master/symbols/amesser-com
+LibName49=Library/kicadlib-master/symbols/amesser-conn
+LibName50=Library/kicadlib-master/symbols/amesser-diodes
+LibName51=Library/kicadlib-master/symbols/amesser-discrete
+LibName52=Library/kicadlib-master/symbols/amesser-display
+LibName53=Library/kicadlib-master/symbols/amesser-memory
+LibName54=Library/kicadlib-master/symbols/amesser-miscic
+LibName55=Library/kicadlib-master/symbols/amesser-power
+LibName56=Library/kicadlib-master/symbols/amesser-switch
+LibName57=Library/kicadlib-master/symbols/amesser-usb
+LibName58=Library/kicadlib-master/symbols/atsam4s
+LibName59=Library/kicadlib-master/symbols/common-passive
+LibName60=Library/kicadlib-master/symbols/keystone
+LibName61=Library/kicadlib-master/symbols/lan8742a
+LibName62=Library/kicadlib-master/symbols/lm2675
+LibName63=Library/kicadlib-master/symbols/logic-7400
+LibName64=Library/kicadlib-master/symbols/max98089
+LibName65=Library/kicadlib-master/symbols/micro-lpc
+LibName66=Library/kicadlib-master/symbols/pulse_jack
+LibName67=Library/kicadlib-master/symbols/pwr
+LibName68=Library/kicadlib-master/symbols/ref
+LibName69=Library/kicadlib-master/symbols/relay
+LibName70=Library/kicadlib-master/symbols/ti
+[general]
+version=1
