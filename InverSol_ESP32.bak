@@ -32,6 +32,43 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:espressif-xess
+LIBS:amesser_altera_fpga
+LIBS:amesser_atmel_sam
+LIBS:amesser_cypress_fx
+LIBS:amesser_diodes
+LIBS:amesser_linear
+LIBS:amesser_memory
+LIBS:amesser_microcontroller
+LIBS:amesser_misc
+LIBS:amesser_miscic
+LIBS:amesser_osc_crystal
+LIBS:amesser_pmic
+LIBS:amesser_transistors
+LIBS:amesser-ad
+LIBS:amesser-cmos4000
+LIBS:amesser-com
+LIBS:amesser-conn
+LIBS:amesser-diodes
+LIBS:amesser-discrete
+LIBS:amesser-display
+LIBS:amesser-memory
+LIBS:amesser-miscic
+LIBS:amesser-power
+LIBS:amesser-switch
+LIBS:amesser-usb
+LIBS:atsam4s
+LIBS:common-passive
+LIBS:keystone
+LIBS:lan8742a
+LIBS:lm2675
+LIBS:logic-7400
+LIBS:max98089
+LIBS:micro-lpc
+LIBS:pulse_jack
+LIBS:pwr
+LIBS:ref
+LIBS:relay
+LIBS:ti
 LIBS:InverSol_ESP32-cache
 EELAYER 25 0
 EELAYER END
@@ -129,7 +166,7 @@ F 3 "" H 8100 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 1650 9200 0    157  ~ 31
-Espressif ESP-WROOM-32 MODULE
+GPIO Connector
 $Comp
 L Conn_02x20_Odd_Even J1
 U 1 1 5B033188
@@ -320,6 +357,85 @@ F 2 "" H 6750 11400 50  0001 C CNN
 F 3 "" H 6750 11400 50  0001 C CNN
 	1    6750 11400
 	0    -1   -1   0   
+$EndComp
+Text Notes 8050 3800 0    60   ~ 0
+ESP32-WROOM-32
+$Comp
+L LM2675 U?
+U 1 1 5B1ADF0F
+P 17150 4800
+F 0 "U?" H 17150 4800 60  0000 C CNN
+F 1 "LM2675" H 17100 5000 60  0000 C CNN
+F 2 "" H 17150 4800 60  0000 C CNN
+F 3 "" H 17150 4800 60  0000 C CNN
+	1    17150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5B1AE6F0
+P 17700 4000
+F 0 "R3" V 17780 4000 50  0000 C CNN
+F 1 "R" V 17700 4000 50  0000 C CNN
+F 2 "" V 17630 4000 50  0001 C CNN
+F 3 "" H 17700 4000 50  0001 C CNN
+	1    17700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5B1AE9F3
+P 17200 4000
+F 0 "R2" V 17280 4000 50  0000 C CNN
+F 1 "R" V 17200 4000 50  0000 C CNN
+F 2 "" V 17130 4000 50  0001 C CNN
+F 3 "" H 17200 4000 50  0001 C CNN
+	1    17200 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5B1AEA34
+P 16000 5200
+F 0 "C?" H 16025 5300 50  0000 L CNN
+F 1 "C" H 16025 5100 50  0000 L CNN
+F 2 "" H 16038 5050 50  0001 C CNN
+F 3 "" H 16000 5200 50  0001 C CNN
+	1    16000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5B1AEA85
+P 19000 5200
+F 0 "C2" H 19025 5300 50  0000 L CNN
+F 1 "C" H 19025 5100 50  0000 L CNN
+F 2 "" H 19038 5050 50  0001 C CNN
+F 3 "" H 19000 5200 50  0001 C CNN
+	1    19000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5B1AEAE6
+P 18350 4600
+F 0 "C1" H 18375 4700 50  0000 L CNN
+F 1 "C" H 18375 4500 50  0000 L CNN
+F 2 "" H 18388 4450 50  0001 C CNN
+F 3 "" H 18350 4600 50  0001 C CNN
+	1    18350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener_ALT D?
+U 1 1 5B1AEB21
+P 18350 5150
+F 0 "D?" H 18350 5250 50  0000 C CNN
+F 1 "D_Zener_ALT" H 18350 5050 50  0000 C CNN
+F 2 "" H 18350 5150 50  0001 C CNN
+F 3 "" H 18350 5150 50  0001 C CNN
+	1    18350 5150
+	0    1    1    0   
 $EndComp
 Wire Notes Line
 	1550 1400 11600 1400
@@ -516,6 +632,69 @@ Wire Wire Line
 Connection ~ 6000 11400
 Wire Wire Line
 	6700 11400 6750 11400
-Text Notes 8050 3800 0    60   ~ 0
-ESP32-WROOM-32
+Wire Wire Line
+	17450 4100 17450 4000
+Wire Wire Line
+	17350 4000 17550 4000
+Connection ~ 17450 4000
+Wire Wire Line
+	18150 4700 18150 4450
+Wire Wire Line
+	18150 4450 18350 4450
+Wire Wire Line
+	18150 4900 18500 4900
+Wire Wire Line
+	18350 4750 18350 5000
+$Comp
+L L L1
+U 1 1 5B1AF1BD
+P 18650 4900
+F 0 "L1" V 18600 4900 50  0000 C CNN
+F 1 "L" V 18725 4900 50  0000 C CNN
+F 2 "" H 18650 4900 50  0001 C CNN
+F 3 "" H 18650 4900 50  0001 C CNN
+	1    18650 4900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 18350 4900
+Wire Wire Line
+	19000 3850 19000 5050
+Wire Wire Line
+	19000 4900 18800 4900
+Wire Wire Line
+	19000 4000 17850 4000
+Connection ~ 19000 4900
+$Comp
+L +3V3 #PWR?
+U 1 1 5B1AF69C
+P 19000 3850
+F 0 "#PWR?" H 19000 3700 50  0001 C CNN
+F 1 "+3V3" H 19000 3990 50  0000 C CNN
+F 2 "" H 19000 3850 50  0001 C CNN
+F 3 "" H 19000 3850 50  0001 C CNN
+	1    19000 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 19000 4000
+Wire Wire Line
+	16850 5500 16850 5800
+Wire Wire Line
+	16000 5350 16000 5950
+Wire Wire Line
+	16000 5950 19000 5950
+Connection ~ 17450 5950
+Wire Wire Line
+	17450 5950 17450 5500
+Wire Wire Line
+	18350 5950 18350 5300
+Wire Wire Line
+	19000 5950 19000 5350
+Connection ~ 18350 5950
+Wire Wire Line
+	16000 5050 16000 4800
+Wire Wire Line
+	15600 4800 16150 4800
+Connection ~ 16000 4800
+Text Label 15600 4800 0    60   ~ 0
+VBATT
 $EndSCHEMATC
